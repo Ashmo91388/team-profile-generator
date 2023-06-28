@@ -12,7 +12,7 @@ describe('Employee class', () => {
   it('should return the name when calling getName()', () => {
     const employee = new Employee('Johnny', 1, 'johnny@example.com');
 
-    expect(employee.getName()).toEqual('John');
+    expect(employee.getName()).toEqual('Johnny');
   });
 
   it('should return the id when calling getId()', () => {
@@ -28,7 +28,7 @@ describe('Employee class', () => {
   });
 
   it('should return the role as "Employee" when calling getRole()', () => {
-    const employee = new Employee('John', 1, 'johnny@example.com');
+    const employee = new Employee('Johnny', 1, 'johnny@example.com');
 
     expect(employee.getRole()).toEqual('Employee');
   });
